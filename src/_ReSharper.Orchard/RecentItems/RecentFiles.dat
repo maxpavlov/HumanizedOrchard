@@ -1,31 +1,51 @@
 ﻿<RecentFiles>
   <RecentFiles>
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheThemeMachine/d:Styles/f:Web.config" caret="0" fromTop="0" />
-    <File id="50B779EA-EC00-4699-84C0-03B395C365D2/f:Web.config" caret="0" fromTop="0" />
-    <File id="5C0D5249-AEF5-4BB6-8F5F-057B91AC2D7A/f:WarmupUtility.cs" caret="0" fromTop="0" />
-    <File id="5C0D5249-AEF5-4BB6-8F5F-057B91AC2D7A/f:WarmupHttpModule.cs" caret="0" fromTop="0" />
-    <File id="5C0D5249-AEF5-4BB6-8F5F-057B91AC2D7A/f:Starter.cs" caret="140" fromTop="0" />
-    <File id="2D1D92BB-4555-4CBE-8D0E-63563D6CE4C6/d:Environment/f:IOrchardHost.cs" caret="988" fromTop="27" />
-    <File id="2D1D92BB-4555-4CBE-8D0E-63563D6CE4C6/d:Environment/d:ShellBuilders/f:ShellContext.cs" caret="219" fromTop="6" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheThemeMachine/d:Views/f:BadgeOfHonor.cshtml" caret="0" fromTop="0" />
-    <File id="50B779EA-EC00-4699-84C0-03B395C365D2/f:Global.asax.cs" caret="741" fromTop="23" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheThemeMachine/f:Theme.txt" caret="0" fromTop="0" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheThemeMachine/f:Placement.info" caret="0" fromTop="0" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheThemeMachine/d:Styles/f:Site.css" caret="18267" fromTop="22" />
-    <File id="9916839C-39FC-4CEB-A5AF-89CA7E87119F/d:Shapes/d:Views/f:Layout.cshtml" caret="0" fromTop="0" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Properties/f:AssemblyInfo.cs" caret="367" fromTop="8" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/f:Module.txt" caret="37" fromTop="1" />
+    <File id="954CA994-D204-468B-9D69-51F6AD3E1C29/d:Views/f:Body-Html.Editor.cshtml" caret="239" fromTop="7" />
+    <File id="954CA994-D204-468B-9D69-51F6AD3E1C29/d:Scripts/d:plugins/d:mediapicker/f:editor_plugin_src.js" caret="4429" fromTop="14" />
+    <File id="954CA994-D204-468B-9D69-51F6AD3E1C29/d:Scripts/d:plugins/d:mediapicker/f:editor_plugin.js" caret="1019" fromTop="1" />
+    <File id="954CA994-D204-468B-9D69-51F6AD3E1C29/d:Scripts/f:orchard-tinymce.js" caret="366" fromTop="7" />
+    <File id="94E694A2-D140-468D-A277-C5FCE1D13E9B/f:profiling-setup-commands.txt" caret="521" fromTop="0" />
+    <File id="7354DF37-934B-46CF-A13C-455D5F5F5413/f:Setup.feature.cs" caret="9211" fromTop="26" />
+    <File id="7354DF37-934B-46CF-A13C-455D5F5F5413/f:Setup.feature" caret="2363" fromTop="27" />
+    <File id="7354DF37-934B-46CF-A13C-455D5F5F5413/d:Bindings/f:OrchardSiteFactory.cs" caret="1060" fromTop="25" />
+    <File id="8C7FCBC2-E6E1-405E-BFB5-D8D9E67A09C4/d:Recipes/f:default.recipe.xml" caret="547" fromTop="12" />
+    <File id="8C7FCBC2-E6E1-405E-BFB5-D8D9E67A09C4/d:Recipes/f:blog.recipe.xml" caret="562" fromTop="13" />
+    <File id="3787DDE5-E5C8-4841-BDA7-DCB325388064/d:Views/d:EditorTemplates/d:Fields/f:MediaPicker.Edit.cshtml" caret="236" fromTop="6" />
+    <File id="3158C928-888C-4A84-8BC1-4A8257489538/d:Scripts/f:orchard-markdown.js" caret="1802" fromTop="27" />
     <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/f:AdminFilter.cs" caret="0" fromTop="0" />
-    <File id="9916839C-39FC-4CEB-A5AF-89CA7E87119F/d:Shapes/d:Views/f:User.cshtml" caret="50" fromTop="2" />
-    <File id="9916839C-39FC-4CEB-A5AF-89CA7E87119F/d:Shapes/d:Views/f:Header.cshtml" caret="0" fromTop="0" />
-    <File id="9916839C-39FC-4CEB-A5AF-89CA7E87119F/d:Shapes/d:Views/f:HeadPreload.cshtml" caret="0" fromTop="0" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheThemeMachine/d:Views/f:Layout.cshtml" caret="6002" fromTop="20" />
-    <File id="50B779EA-EC00-4699-84C0-03B395C365D2/f:Refresh.html" caret="0" fromTop="0" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheAdmin/d:Views/f:OrchardVersion.cshtml" caret="0" fromTop="0" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheAdmin/d:Views/f:Layout.cshtml" caret="0" fromTop="0" />
-    <File id="7020124F-9FFC-4AC3-8F3D-AAB8E0240759/f:Layout.cshtml" caret="0" fromTop="0" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheAdmin/d:Styles/f:ie7.css" caret="0" fromTop="0" />
-    <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheAdmin/d:Styles/f:site.css" caret="5772" fromTop="27" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Controllers/f:AdminController.cs" caret="1408" fromTop="19" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/d:samples/f:orchard-tinymce.js" caret="915" fromTop="0" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/d:samples/f:tinymce_template_list.js" caret="0" fromTop="0" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/f:tiny_mce.js" caret="0" fromTop="0" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/f:orchard-tinymce.js" caret="2636" fromTop="13" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Scripts/f:MediaBrowser.js" caret="11238" fromTop="13" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Scripts/f:MediaPicker.js" caret="2407" fromTop="11" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/d:plugins/d:mediapicker/f:editor_plugin_src.js" caret="2669" fromTop="33" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/d:plugins/d:wordpicker/f:editor_plugin_src.js" caret="0" fromTop="0" />
+    <File id="0E7646E8-FE8F-43C1-8799-D97860925EC4/d:Controllers/f:AdminController.cs" caret="1590" fromTop="13" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Index.cshtml" caret="1613" fromTop="16" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Tab_Word.cshtml" caret="410" fromTop="10" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Tab_Gallery.cshtml" caret="1845" fromTop="16" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Tab_Url.cshtml" caret="2609" fromTop="0" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Word.cshtml" caret="0" fromTop="0" />
   </RecentFiles>
   <RecentEdits>
     <File id="CB70A642-8CEC-4DDE-8C9F-AD08900EC98D/d:TheAdmin/d:Styles/f:site.css" caret="5772" fromTop="27" />
+    <File id="954CA994-D204-468B-9D69-51F6AD3E1C29/d:Scripts/f:orchard-tinymce.js" caret="828" fromTop="14" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/f:Web.config" caret="1275" fromTop="20" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/d:plugins/d:mediapicker/f:editor_plugin_src.js" caret="4438" fromTop="27" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/d:plugins/d:wordpicker/f:editor_plugin_src.js" caret="4392" fromTop="27" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Views/f:Body-Html.Editor.cshtml" caret="819" fromTop="19" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Controllers/f:AdminController.cs" caret="827" fromTop="8" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Scripts/f:MediaPicker.js" caret="2407" fromTop="11" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Tab_Word.cshtml" caret="4080" fromTop="17" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Tab_Gallery.cshtml" caret="613" fromTop="7" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Scripts/f:MediaBrowser.js" caret="11238" fromTop="13" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Word.cshtml" caret="1752" fromTop="12" />
+    <File id="43D0EC0B-1955-4566-8D31-7B9102DA1703/d:Views/d:Admin/f:Index.cshtml" caret="1613" fromTop="16" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/d:samples/f:orchard-tinymce.js" caret="915" fromTop="0" />
+    <File id="4BC7963C-65A9-4258-B84A-85787B0D19A0/d:Scripts/f:orchard-tinymce.js" caret="2636" fromTop="13" />
   </RecentEdits>
 </RecentFiles>

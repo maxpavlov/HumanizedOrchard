@@ -27,7 +27,7 @@
     $("#img-width, #lib-width").live("change", fixAspectHeight);
     $("#img-height, #lib-height").live("change", fixAspectWidth);
 
-    $("#img-insert, #lib-insert").live("click", function () {
+    $("#img-insert, #lib-insert, #word-insert").live("click", function () {
         if ($(this).hasClass("disabled")) return;
         publishInsertEvent(this);
     });
@@ -143,25 +143,71 @@
     function getIdPrefix(e) {
         return "#" + e.id.substr(0, 4);
     }
+    
+    function qs(key) {
+        key = key.replace(/[*+?^$.\[\]{}()|\\\/]/g, "\\$&"); // escape RegEx control chars
+        var match = location.search.match(new RegExp("[?&]" + key + "=([^&]+)(&|$)"));
+        return match && decodeURIComponent(match[1].replace(/\+/g, " "));
+    }
+
     function publishInsertEvent(button) {
+
+        if (qs("mediaType")) {
+            switch (qs("mediaType")) {
+                case "image":
+                    respondWithImageData(button);
+                    break;
+                case "word":
+                    respondWithWordData(button);
+                    break;
+                default:
+                    respondWithImageData(button);
+                    break;
+            }
+        }
+
+    }
+    
+    function respondWithWordData(button) {
         var prefix = getIdPrefix(button),
-            img = {
-                src: $(prefix + "src").val(),
-                alt: $(prefix + "alt").val(),
-                "class": $(prefix + "class").val(),
-                style: $(prefix + "style").val(),
-                align: $(prefix + "align").val(),
-                width: $(prefix + "width").val(),
-                height: $(prefix + "height").val()
-            };
-        img.html = getImageHtml(img);
+                a = {
+                    href: $(prefix + "src").val(),
+                    alt: $(prefix + "alt").val(),
+                    "class": 'word-link ' + $(prefix + "class").val(),
+                    style: $(prefix + "style").val(),
+                    align: $(prefix + "align").val(),
+                    width: $(prefix + "width").val(),
+                    height: $(prefix + "height").val()
+                };
+        a.html = getWordHtml(a);
         try {
-            window.opener.jQuery[query("callback")]({ img: img });
+            window.opener.jQuery[query("callback")]({ a: a });
         }
         catch (ex) {
             alert($.mediaPicker.cannotPerformMsg);
         }
         window.close();
+    }
+    
+    function respondWithImageData(button) {
+        var prefix = getIdPrefix(button),
+                img = {
+                    src: $(prefix + "src").val(),
+                    alt: $(prefix + "alt").val(),
+                    "class": $(prefix + "class").val(),
+                    style: $(prefix + "style").val(),
+                    align: $(prefix + "align").val(),
+                    width: $(prefix + "width").val(),
+                    height: $(prefix + "height").val()
+                };
+            img.html = getImageHtml(img);
+            try {
+                window.opener.jQuery[query("callback")]({ img: img });
+            }
+            catch (ex) {
+                alert($.mediaPicker.cannotPerformMsg);
+            }
+            window.close();
     }
 
     function parseUnits(value) {
@@ -240,6 +286,16 @@
         // not an exhastive list, but should cover all the necessary characters for this UI (e.g. you can't really put in newlines).
         if (!value && name !== "alt") return "";
         return ' ' + name + '="' + attributeEncode(value) + '"';
+    }
+    
+    function getWordHtml(data) {
+        return html = '<a href="' + encodeURI(data.href) + '" ><img src="' + encodeURI($('#WordImageUri').val()) + '"' + getAttr("alt", data.alt || "")
+            + getAttr("class", data["class"])
+            + getAttr("style", data.style)
+            + getAttr("align", data.align)
+            + getAttr("width", data.width)
+            + getAttr("height", data.height)
+            + "/></a>";
     }
 
     function getImageHtml(data) {

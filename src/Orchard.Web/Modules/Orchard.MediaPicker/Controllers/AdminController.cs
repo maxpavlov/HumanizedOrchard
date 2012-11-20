@@ -23,11 +23,18 @@ namespace Orchard.MediaPicker.Controllers {
 
         public Localizer T { get; set; }
 
-        public ActionResult Index(string name, string mediaPath) {
+        public ActionResult Index(string name, string mediaPath, string mediaType) {
             var mediaFolders = _mediaService.GetMediaFolders(mediaPath);
             var mediaFiles = string.IsNullOrEmpty(mediaPath) ? null : _mediaService.GetMediaFiles(mediaPath);
             var model = new MediaFolderEditViewModel { FolderName = name, MediaFiles = mediaFiles, MediaFolders = mediaFolders, MediaPath = mediaPath };
             ViewData["Service"] = _mediaService;
+            switch (mediaType) {
+                case "image":
+                    return View(model);
+                    break;
+                case "word":
+                    return View("Word", model);
+            }
             return View(model);
         }
 

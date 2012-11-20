@@ -77,6 +77,13 @@
     <Content Include="Scripts\plugins\mediapicker\editor_plugin_src.js" />
     <Content Include="Scripts\plugins\mediapicker\editor_plugin.js" />
     <Content Include="Scripts\plugins\mediapicker\img\picture_add.png" />
+    <Content Include="Scripts\plugins\paste\editor_plugin_src.js" />
+    <Content Include="Scripts\plugins\paste\editor_plugin.js" />
+    <Content Include="Scripts\plugins\paste\js\pastetext.js" />
+    <Content Include="Scripts\plugins\paste\js\pasteword.js" />
+    <Content Include="Scripts\plugins\paste\langs\en_dlg.js" />
+    <Content Include="Scripts\plugins\paste\pastetext.htm" />
+    <Content Include="Scripts\plugins\paste\pasteword.htm" />
     <Content Include="Scripts\themes\advanced\about.htm" />
     <Content Include="Scripts\themes\advanced\anchor.htm" />
     <Content Include="Scripts\themes\advanced\charmap.htm" />

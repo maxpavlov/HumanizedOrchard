@@ -1,5 +1,5 @@
-2012/11/17-12:25:57.009 17b4 Recovering log #3
-2012/11/17-12:25:57.181 17b4 Level-0 table #5: started
-2012/11/17-12:25:57.372 17b4 Level-0 table #5: 1845809 bytes OK
-2012/11/17-12:25:57.441 17b4 Delete type=0 #3
-2012/11/17-12:25:57.441 17b4 Delete type=3 #2
+2012/11/20-02:41:22.449 ad8 Recovering log #3
+2012/11/20-02:41:22.751 ad8 Level-0 table #5: started
+2012/11/20-02:41:22.897 ad8 Level-0 table #5: 2100290 bytes OK
+2012/11/20-02:41:22.983 ad8 Delete type=0 #3
+2012/11/20-02:41:22.984 ad8 Delete type=3 #2

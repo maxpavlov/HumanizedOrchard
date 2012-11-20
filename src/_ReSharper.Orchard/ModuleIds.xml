@@ -48,4 +48,6 @@
   <Module PersistentId="6CB3EB30-F725-45C0-9742-42599BA8E8D2" ModuleId="Orchard.Tests.Modules" />
   <Module PersistentId="2FC1D9C8-446D-4414-B252-5E9FBE61EB63" ModuleId="Orchard.Core.Tests" />
   <Module PersistentId="7354DF37-934B-46CF-A13C-455D5F5F5413" ModuleId="Orchard.Specs" />
+  <Module PersistentId="4BC7963C-65A9-4258-B84A-85787B0D19A0" ModuleId="TinyMceDeluxe" />
+  <Module PersistentId="954CA994-D204-468B-9D69-51F6AD3E1C29" ModuleId="TinyMce" />
 </Modules>

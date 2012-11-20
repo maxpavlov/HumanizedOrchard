@@ -1,0 +1,4 @@
+2012-11-20 01:41:16,843 [36] Orchard.Core.Settings.Drivers.SiteSettingsPartDriver - Could not query base url: http://localhost:30320/
+System.Net.WebException: The remote server returned an error: (404) Not Found.
+   at System.Net.HttpWebRequest.GetResponse()
+   at Orchard.Core.Settings.Drivers.SiteSettingsPartDriver.Editor(SiteSettingsPart part, IUpdateModel updater, Object shapeHelper) in c:\Users\Max\Documents\GitHub\HumanizedOrchard\src\Orchard.Web\Core\Settings\Drivers\SiteSettingsPartDriver.cs:line 91
