@@ -141,7 +141,22 @@
     }
 
     function getIdPrefix(e) {
-        return "#" + e.id.substr(0, 4);
+        
+        if (qs("mediaType")) {
+            switch (qs("mediaType")) {
+                case "image":
+                    return "#" + e.id.substr(0, 4);
+                    break;
+                case "word":
+                    return "#" + e.id.substr(0, 5);
+                    break;
+                default:
+                    return "#" + e.id.substr(0, 4);
+                    break;
+            }
+        }
+
+        
     }
     
     function qs(key) {

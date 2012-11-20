@@ -37,11 +37,11 @@
     @Html.Hidden("WordImageUri", @Url.Content("~/Modules/TinyMceDeluxe/Scripts/plugins/wordpicker/img/word-icon.png"))    
 <div id="tabs" class="group">
     <ul>
-        <li><a href="#tab-url" data-edittext="@T("Update/Upload Word Document")" data-edittext-content="true">@T("Insert/Upload Word Document")</a></li>
-        <li><a href="#tab-gallery">@T("Browse Media")</a></li>
+        <li><a href="#tab-url" data-edittext="@T("Загразить документ Word")" data-edittext-content="true">@T("Загразить документ Word")</a></li>
+        <li><a href="#tab-gallery">@T("Посмотреть загруженные файлы")</a></li>
     </ul>
     <div id="tab-url">
-@Html.Partial("Tab_Url", Model)
+@Html.Partial("Tab_Word", Model)
     </div>
     <div id="tab-gallery">
 @Html.Partial("Tab_Gallery", Model)
